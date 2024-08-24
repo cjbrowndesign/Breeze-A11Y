@@ -1,0 +1,14 @@
+{
+	"name": "breeze-a11y",
+	"version": "1.0.0",
+	"description": "Accessibility widget for personal projects",
+	"main": "dist/index.js",
+	"private": true,
+	"scripts": {
+		"build": "esbuild src/BreezeA11y.js --format=esm --bundle --minify --sourcemap --outfile=dist/index.js"
+	},
+	"author": "Cj Brown <hello@cjbrowndesign.co.uk>",
+	"devDependencies": {
+		"esbuild": "0.21.4"
+	}
+}
